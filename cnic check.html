@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Intro to java script</title>
+<script>
+    function abc() {
+
+        let x = document.getElementById('check').value;
+        pt=/^[0-9]{5}[0-9]{7}[0-9]{1}$/;
+        if (x.search(pt)==-1) {
+            alert("not ok")
+        }
+        else{
+            alert("ok");
+        }
+
+    }
+</script>
+</head>
+<body>
+    <form>
+        <label for="nt">enter cnic number</label>
+        <input type="number" id ="check">
+        <button onclick="abc()">search</button>
+    </form>
+</body>
+</html>

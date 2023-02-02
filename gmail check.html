@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Intro to java script</title>
+<script>
+    function abc() {
+
+        let x = document.getElementById('check').value;
+        pt=/^[a-z]{15}||[A-Z]{15}[0-9]{4}(@)[a-z]{8}(.)(com)$/;
+        if (x.search(pt)==-1) {
+            alert("not ok")
+        }
+        else{
+            alert("ok");
+        }
+
+    }
+     function abc1() {
+
+        let x = document.getElementById('check1').value;
+        pt=/^[A-Z]{1}[A-Z]{7}||[a-z]{7}[0-9]{4}[&#34-&#62]{4}$/;
+        if (x.search(pt)==-1) {
+            alert("not ok")
+        }
+        else{
+            alert("ok");
+        }
+
+    }
+</script>
+</head>
+<body>
+    <form>
+        <label for="nt">enter your email</label>
+        <input type="text" id ="check">
+        <button onclick="abc()">search</button>
+        <label for="nt">enter your password</label>
+        <input type="text" id ="check1">
+        <button onclick="abc1()">search</button>
+    </form>
+</body>
+</html>

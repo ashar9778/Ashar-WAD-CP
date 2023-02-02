@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Intro to java script</title>
+<script>
+    function abc(){
+
+        let x = document.getElementById('check').value;
+        pt=/^(L1)(F)||(S)||(R)[0-9]{2}(BSCS)||(BSSE)||(BSAI)[0-9]{4}$/;
+        if (x.search(pt)==-1) {
+            alert("not ok")
+        }
+        else{
+            alert("ok");
+        }
+
+    }
+</script>
+</head>
+<body>
+    <form>
+        <label for="nt">enter registration number</label>
+        <input type="text" id ="check">
+        <button onclick="abc()">search</button>
+    </form>
+</body>
+</html>

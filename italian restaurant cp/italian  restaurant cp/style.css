@@ -1,0 +1,101 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.banner {
+  background-image: url(./asserts/images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% 90%;
+  height: 250vh;
+}
+.brown {
+  color: #572c04;
+}
+.logo {
+  max-width: 180px;
+  min-width: 200px;
+}
+.p_border {
+  border: 5.5px dashed #52361b;
+  max-width: 390px;
+  margin-top: 90px;
+}
+.heading {
+  font-size: 100px;
+  font-weight: 100px;
+  color: #52361b;
+  text-shadow: 1px 4px 1px rgb(255, 255, 255);
+
+}
+.heading2 {
+  font-size: 50px;
+  font-weight: 100px;
+  color: #52361b;
+  text-shadow: 1px 4px 1px rgb(255, 255, 255);
+}
+.banner_img > img {
+  max-width: 400px;
+  max-height: auto;
+  min-width: 105%;
+}
+.burger1 {
+  background-image: url(./asserts/images/burger1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 45% 45%;
+  height: 52vh;
+}
+.burger2 {
+  background-image: url(./asserts/images/burger2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 45% 45%;
+  height: 25vh;
+}
+.burger3 {
+  background-image: url(./asserts/images/burger3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 25%;
+  height: 25vh;
+}
+.card {
+  border: none !important;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 5px 10px;
+}
+.indicator {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 60%;
+  background-color: rgba(255, 255, 0, 0.986) !important;
+}
+.book {
+  background-image: url(./asserts/images/contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 60% 60%;
+  height: 75vh;
+}
+.footer {
+  background-image: url(./asserts/images/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 85% 85%;
+  height: 90vh;
+}
+.white_logo {
+  max-width: 290px !important;
+  min-width: 240px !important;
+}
+.footer_email {
+  width: 22px;
+  height: 20px;
+}
+.p_w {
+  max-width: 380px !important;
+  min-width: 250px !important;
+}

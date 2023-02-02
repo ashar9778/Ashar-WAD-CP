@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Task</title>
+    <script>
+        const a1 = [];
+        const a2 = [];
+        alert("Enter values of Array 1");
+        for (let i=0; i < 5 ; i++)
+        {
+            a1[i] =  prompt(a1[i]);
+        }
+        alert("Enter values of Array 2");
+        for (let i = 0; i < 5; i++)
+        {
+            a2[i] = prompt(a2[i]);
+        }
+        for (let i=0;i<5;i++)
+        {
+            if (a1[i] != a2[i])
+            {
+                alert("This index dosen't Match");
+                alert("Array 1 : " + a1[i]);
+                alert("Array 2 : " + a2[i]);
+                let choice = undefined;
+                alert("Enter 1 if you want to Keep " + a1[i] + " OR Enter 2 if you want to Keep " + a2[i] + " OR Enter any other Number to Enter Your Choice");
+                choice = parseInt(prompt(choice));
+                if (choice == 1)
+                {
+                    a2[i] = a1[i];
+                }
+                else if (choice == 2)
+                {
+                    a1[i] = a2[i];
+                }
+                else
+                {
+                    let update=undefined;
+                    alert("Enter Your Choice");
+                    update=prompt(update);
+                    a1[i]=update;
+                    a2[i]=update;
+                    alert("Updated");
+                }
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
